@@ -1,6 +1,6 @@
 /* ===========================
    DBR — David Blackwell Recruitment
-   Brand: Navy #1B2A4A | gold: #FFC107
+   Brand: Navy #1B2A4A | gold #FFC107
    =========================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap');
@@ -11,7 +11,7 @@
   --gold:   #FFC107
   --gold2:  #e09800;
   --white:  #ffffff;
-  --offwhite: #F8F8F6;
+  --offwhite:#F8F8F6;
   --grey:   #6B7280;
   --light:  #E8ECF4;
 }
