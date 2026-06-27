@@ -1,6 +1,6 @@
 /* ===========================
-   DBR — David Blackwell Recruitment
-   Brand: Navy #1B2A4A | gold #FFC107
+   DBR â€” David Blackwell Recruitment
+   Brand: Navy #1B2A4A | Gold #F5A800
    =========================== */
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Inter:wght@400;500;600;700&display=swap');
@@ -8,10 +8,10 @@
 :root {
   --navy:   #1B2A4A;
   --navy2:  #142038;
-  --gold:   #FFC107
+  --gold:   #F5A800;
   --gold2:  #e09800;
   --white:  #ffffff;
-  --offwhite:#F8F8F6;
+  --offwhite: #F8F8F6;
   --grey:   #6B7280;
   --light:  #E8ECF4;
 }
@@ -27,7 +27,7 @@ body {
   line-height: 1.6;
 }
 
-/* ── NAV ── */
+/* â”€â”€ NAV â”€â”€ */
 nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   background: var(--navy);
@@ -110,7 +110,7 @@ nav {
   background: var(--white); transition: 0.3s;
 }
 
-/* ── BUTTONS ── */
+/* â”€â”€ BUTTONS â”€â”€ */
 .btn {
   display: inline-block;
   padding: 14px 32px;
@@ -142,7 +142,7 @@ nav {
 }
 .btn-navy:hover { background: var(--navy2); transform: translateY(-2px); }
 
-/* ── HERO ── */
+/* â”€â”€ HERO â”€â”€ */
 .hero {
   background: var(--navy);
   min-height: 100vh;
@@ -247,7 +247,7 @@ nav {
   letter-spacing: 1px;
 }
 
-/* ── SECTION LAYOUT ── */
+/* â”€â”€ SECTION LAYOUT â”€â”€ */
 .section {
   padding: 90px 5%;
 }
@@ -299,7 +299,7 @@ h2 span { color: var(--gold); }
 
 .section-dark .section-intro { color: var(--light); }
 
-/* ── SECTORS ── */
+/* â”€â”€ SECTORS â”€â”€ */
 .sectors-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -330,7 +330,7 @@ h2 span { color: var(--gold); }
   letter-spacing: 0.5px;
 }
 
-/* ── PROCESS ── */
+/* â”€â”€ PROCESS â”€â”€ */
 .process-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -365,7 +365,7 @@ h2 span { color: var(--gold); }
 
 .process-step p { color: var(--light); font-size: 0.9rem; }
 
-/* ── JOB CARDS ── */
+/* â”€â”€ JOB CARDS â”€â”€ */
 .jobs-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -422,7 +422,7 @@ h2 span { color: var(--gold); }
 
 .job-card .btn { width: 100%; text-align: center; }
 
-/* ── FORM ── */
+/* â”€â”€ FORM â”€â”€ */
 .form-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -466,7 +466,7 @@ textarea { resize: vertical; min-height: 140px; }
 
 .form-submit { margin-top: 8px; }
 
-/* ── TWO COLUMN ── */
+/* â”€â”€ TWO COLUMN â”€â”€ */
 .two-col {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -474,7 +474,7 @@ textarea { resize: vertical; min-height: 140px; }
   align-items: center;
 }
 
-/* ── TESTIMONIAL ── */
+/* â”€â”€ TESTIMONIAL â”€â”€ */
 .testimonial-strip {
   background: var(--gold);
   padding: 48px 5%;
@@ -500,7 +500,7 @@ textarea { resize: vertical; min-height: 140px; }
   text-transform: uppercase;
 }
 
-/* ── FOOTER ── */
+/* â”€â”€ FOOTER â”€â”€ */
 footer {
   background: var(--navy2);
   color: var(--light);
@@ -583,7 +583,7 @@ footer {
 
 .footer-bottom p { font-size: 0.8rem; opacity: 0.6; }
 
-/* ── PAGE HEADER ── */
+/* â”€â”€ PAGE HEADER â”€â”€ */
 .page-header {
   background: var(--navy);
   padding: 130px 5% 60px;
@@ -608,7 +608,7 @@ footer {
   margin: 0 auto;
 }
 
-/* ── UTILITY ── */
+/* â”€â”€ UTILITY â”€â”€ */
 .text-center { text-align: center; }
 .mt-8 { margin-top: 8px; }
 .mt-16 { margin-top: 16px; }
@@ -623,7 +623,7 @@ footer {
 
 .center .gold-bar { margin: 16px auto 24px; }
 
-/* ── MOBILE ── */
+/* â”€â”€ MOBILE â”€â”€ */
 @media (max-width: 768px) {
   .nav-links { display: none; flex-direction: column; }
   .nav-links.open { display: flex; }
